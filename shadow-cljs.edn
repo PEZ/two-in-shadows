@@ -14,6 +14,7 @@
 
  :builds {:server {:target    :node-script
                    :main      two-in-shadows.server/main
+                   :compiler-options {:source-map-use-fs-paths true}
                    :output-to "out/server.js"}
 
           :client {:target     :browser

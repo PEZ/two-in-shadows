@@ -6,3 +6,5 @@
 /yarn.lock
 .DS_Store
 /.shadow-cljs
+.nrepl-port
+data/
